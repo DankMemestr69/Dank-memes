@@ -1,0 +1,11 @@
+b=[]
+a="Hello the world of Wonders"
+
+for i in range(len(a)):
+	if ord(a[i])>96 and ord(a[i])<123:
+		
+b.append(a[i])
+		
+z="".join(b)
+print(b)
+
